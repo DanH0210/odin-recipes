@@ -1,0 +1,53 @@
+body {
+    font-family:Arial, Helvetica, sans-serif
+}
+.main-title {
+    background-color: rgb(236, 208, 157);
+    color: rgb(1, 41, 44);
+    text-align: center;
+    height: 20vh;
+    line-height: 20vh;
+}
+
+ul.container {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+
+}
+
+ul.container > * {
+    border: 1px solid green;
+    flex: 1;
+    background-color: rgb(68, 238, 147);
+    text-align: center;
+}
+
+ul.container > li > a {
+    color: rgb(165, 90, 3);
+    text-decoration: none;
+    font-size: 30px;
+
+}
+
+@media (max-width: 600px) {
+    ul.container {
+        flex-direction: column;
+    }
+}
+
+.formula-title {
+    background-color: rgb(252, 227, 227);
+    text-align: center;
+    height: 15vh;
+    line-height: 15vh;
+    color:rgb(66, 55, 55);
+}
+
+.formula-img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
